@@ -1,0 +1,24 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names:
+  [
+    "bike",
+    "car",
+    "cycle",
+    "light post",
+    "objects",
+    "pathhole",
+    "scooty",
+    "stairs",
+    "tree",
+  ]
+
+roboflow:
+  workspace: assistiveopencv
+  project: assistiveopencv-ro7bs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/assistiveopencv/assistiveopencv-ro7bs/dataset/1
